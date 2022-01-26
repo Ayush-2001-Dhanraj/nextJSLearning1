@@ -1,25 +1,9 @@
-import Link from 'next/link'
+import ProductsListLayout from '../../components/layouts/products'
 
 const Products = () => {
-  return (
-    <>
-      <h1>Products Page</h1>
-      <h3>
-        <Link href='/products/1'>
-          <a>Product 1</a>
-        </Link>
-      </h3>
-      <h3>
-        <Link href='/products/2'>
-          <a>Product 2</a>
-        </Link>
-      </h3>
-      <h3>
-        <Link href='/products/3' replace>
-          <a>Product 3</a>
-        </Link>
-      </h3>
-    </>
-  )
+  return <h4>Select Product to view Details</h4>
 }
+
+Products.layout = ProductsListLayout
+
 export default Products

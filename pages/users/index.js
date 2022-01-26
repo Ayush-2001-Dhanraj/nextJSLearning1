@@ -1,8 +1,9 @@
 import User from '../../components/user'
+import { Box } from '@mui/material'
 
 const UserList = ({ users }) => {
   return (
-    <>
+    <Box sx={{ display: 'flex', justifyContent: 'space-between' }} p={1}>
       <h1>List of Users</h1>
       <ol>
         {users.map(user => (
@@ -11,7 +12,7 @@ const UserList = ({ users }) => {
           </li>
         ))}
       </ol>
-    </>
+    </Box>
   )
 }
 

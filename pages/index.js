@@ -1,19 +1,12 @@
-import Link from 'next/link'
-
 const Home = () => {
   return (
     <>
       <h1>Home Page</h1>
-      <h3>
-        <Link href='/products'>
-          <a>Products</a>
-        </Link>
-      </h3>
-      <h3>
-        <Link href='/users'>
-          <a>Users</a>
-        </Link>
-      </h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        consequuntur eaque quo qui pariatur voluptatibus exercitationem, autem
+        voluptate dolores. Adipisci!
+      </p>
     </>
   )
 }
